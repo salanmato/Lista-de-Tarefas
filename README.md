@@ -2,11 +2,10 @@
 <p>
     
     Projeto de lista de tarefas onde você pode:
-    <ul>
-        <li>marcar novas tarefas</li>
-        <li>marcar tarefas como 'concluídas'</li>
-        <li>apagar tarefas</li>
-    </ul>
+        • marcar novas tarefas
+        • marcar tarefas como 'concluídas'
+        • apagar tarefas
+ 
 
     Além disso, as notas ficam salvas na memória do navegador. Você pode fechar ou recarregar, que elas vão continuar lá.
 </p>
