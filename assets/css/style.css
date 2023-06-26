@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Bruno Ace', cursive;
+}
+
+:root{
+    --background-color: #6a994e;
+    --primary-color: #FBB02D;
+    --green-color: #7CB518;
+    --black: #023047;
+    --white: #fefae0;
+}
+
+body{
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 30rem;
+    background-color: var(--primary-color);
+    margin: 05% auto;
+    padding-top: 1rem;
+}
+.nova-tarefa{
+    display: block;
+    padding-bottom: 1rem;
+    color: var(--black);
+}
+.titulo{
+    padding-left: 2rem;
+    color: var(--black);
+}
+
+li{
+    color: var(--black);
+    display: flex;
+    flex-direction: wrap;
+    justify-content: top;
+    font-size: 1rem;
+    height: 2rem;
+}
+
+li p {
+    margin: auto 1rem auto 1rem;
+}
+.btn-concluir{
+    background-color: var(--primary-color);
+    border: none;
+    text-align: center;
+    color: var(--black);
+}
+.btn-apagar{
+    background-color: var(--primary-color);
+    border: none;
+    text-align: center;
+    color: var(--black);
+}
+
+.tarefas-concluidas{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: 1rem 1rem 1rem 2rem;
+}
+.tarefas{
+    width: 100%;
+    padding: 1rem 1rem 1rem 2rem;
+}
+#btn-add-tarefa{
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: var(--black);
+    background: none;
+    border: none;
+}
+
+.btn-concluido{
+    background-color: var(--green-color);
+    border: none;
+    text-align: center;
+    color: var(--black);
+}
+
+.btn-apagar-concluido{
+    background-color: var(--green-color);
+    border: none;
+    text-align: center;
+    color: var(--black);
+}
+
+#input-nova-tarefa{
+    font-size: 1rem;
+    background: none;
+    border: none;
+}
