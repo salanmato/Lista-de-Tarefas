@@ -1,5 +1,6 @@
 <h1>LISTA DE TAREFAS - HTML, CSS e JavaScript</h1>
 <h2>Link para o projeto: https://salanmato.github.io/Lista-de-Tarefas/<br></h2>
+<h3>Feito como trabalho final da terceira sessão do curso: https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/ </h3>
 <p>
     
     Projeto de lista de tarefas onde você pode:
