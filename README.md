@@ -6,9 +6,10 @@
     Projeto de lista de tarefas onde você pode:
         • marcar novas tarefas
         • marcar tarefas como 'concluídas'
+        • desmarcar tarefas 'concluídas'
         • apagar tarefas
  
-
+    ** Desativei essa parte para funciuonar online :D **
     Além disso, as notas ficam salvas na memória do navegador. Você pode fechar ou recarregar, que elas vão continuar lá.
 </p>
 
