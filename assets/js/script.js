@@ -72,9 +72,6 @@ function salvarTarefa(){
         tarefaTexto = tarefaTexto.replace('\n', '')
         listaDeTarefas.push(tarefaTexto)
     }
-
-    const tarefasJSON = JSON.stringify(listaDeTarefas)
-    localStorage.setItem('tarefas', tarefasJSON)
 }
 function salvarTarefaConcluida(){
     const liTarefas = tarefasConcluidas.querySelectorAll('li')
@@ -90,9 +87,9 @@ function salvarTarefaConcluida(){
         tarefaTexto = tarefaTexto.replace('\n', '')
         listaDeTarefas.push(tarefaTexto)
     }
-    const tarefasJSON = JSON.stringify(listaDeTarefas)
-    localStorage.setItem('tarefas-concluidas', tarefasJSON)
 }
+
+/*
 function tarefasSalvas(){
     const tarefas = localStorage.getItem('tarefas')
     const listaDeTarefas = JSON.parse(tarefas)
@@ -113,7 +110,7 @@ function tarefasConcluidasSalvas(){
 
 tarefasSalvas()
 tarefasConcluidasSalvas()
-
+*/
 //acompanhar cliques e eventos
 btnTarefa.addEventListener('click', function(e){
     if(!inputTarefa.value) return
